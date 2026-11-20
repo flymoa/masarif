@@ -87,7 +87,17 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   child: Ic(icon, color: gold ? AppColors.onGold : c.brandFg, size: 22),
                 ),
                 const SizedBox(height: 7),
-                Text(label, style: TextStyle(fontSize: 12, fontWeight: gold ? FontWeight.w600 : FontWeight.w400, color: gold ? c.text : c.muted)),
+                // Dima f str wa7ed: ila ma kafatch l blasa, l kelma katsghar chwiya.
+                SizedBox(
+                  height: 16,
+                  child: FittedBox(
+                    fit: BoxFit.scaleDown,
+                    child: Text(label,
+                        maxLines: 1,
+                        softWrap: false,
+                        style: TextStyle(fontSize: 12, fontWeight: gold ? FontWeight.w600 : FontWeight.w400, color: gold ? c.text : c.muted)),
+                  ),
+                ),
               ]),
             ),
           ),
