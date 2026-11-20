@@ -1,0 +1,13 @@
+# Tsawer dyal apps okhrin (references) — machi dyalna, ma kaytl3ouch public
+/*.jpg
+/*.jpeg
+/*.png
+
+# Claude / outils locaux
+.claude/
+
+# OS / editeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,51 @@
+# Kaybni l APK dyal Masarif f GitHub (gratuit l repos public).
+# - Kol push l main: l APK kayban f "Actions" > run > Artifacts.
+# - Tag b7al v1.0.0: kaytcréa Release fiha l APK bach ytelechargah ay wa7ed.
+name: Android APK
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: masarif_app
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - run: flutter pub get
+
+      - run: flutter build apk --release
+
+      - name: Smiya dyal l APK
+        run: cp build/app/outputs/flutter-apk/app-release.apk build/masarif-${{ github.ref_name }}.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: masarif-apk
+          path: masarif_app/build/masarif-${{ github.ref_name }}.apk
+
+      - name: Release (ghir l tags v*)
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: masarif_app/build/masarif-${{ github.ref_name }}.apk
+          generate_release_notes: true

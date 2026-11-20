@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ary">
+<head>
+<meta charset="utf-8">
+<title>Masarif V2 · Ra2issya</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&amp;display=swap">
+<style>body{margin:0}a{color:#7FD3A4}</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; position: relative; overflow: hidden; background: #0C1411; font-family: Lexend, sans-serif; color: #EEF2EC">
+
+  <header style="padding: 36px 20px 0; display: flex; align-items: center; gap: 12px">
+    <div style="width: 46px; height: 46px; border-radius: 50%; background: #0F3B2C; display: flex; align-items: center; justify-content: center; color: #E8B53C; font-weight: 700; font-size: 18px">M</div>
+    <span style="flex: 1; font-size: 19px; font-weight: 600; letter-spacing: -0.2px">Mohamed</span>
+    <button type="button" aria-label="Tanbihat" style="width: 46px; height: 46px; border-radius: 50%; border: 1px solid #26332D; background: #16211C; display: flex; align-items: center; justify-content: center; position: relative">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#EEF2EC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.9 1.9 0 0 0 3.4 0"></path></svg>
+      <span style="position: absolute; top: 11px; right: 12px; width: 7px; height: 7px; border-radius: 50%; background: #E8B53C"></span>
+    </button>
+  </header>
+
+  <section aria-label="Li b9a" style="margin: 18px 16px 0; height: 124px; box-sizing: border-box; border-radius: 24px; background: #0F3B2C; color: #FFFFFF; padding: 18px 22px; position: relative; overflow: hidden">
+    <svg aria-hidden="true" width="358" height="168" viewBox="0 0 358 168" style="position: absolute; inset: 0">
+      <defs>
+        <pattern id="zellige" width="48" height="48" patternUnits="userSpaceOnUse">
+          <g transform="translate(24 24)">
+            <rect x="-11" y="-11" width="22" height="22" fill="#E8B53C"></rect>
+            <rect x="-11" y="-11" width="22" height="22" fill="#E8B53C" transform="rotate(45)"></rect>
+            <rect x="-6.5" y="-6.5" width="13" height="13" fill="#0B2E22"></rect>
+            <rect x="-6.5" y="-6.5" width="13" height="13" fill="#0B2E22" transform="rotate(45)"></rect>
+            <circle r="3.2" fill="#7FBF9B"></circle>
+          </g>
+          <g fill="#2E6B52">
+            <rect x="-5" y="-5" width="10" height="10" transform="rotate(45)"></rect>
+            <rect x="-5" y="-5" width="10" height="10" transform="translate(48 0) rotate(45)"></rect>
+            <rect x="-5" y="-5" width="10" height="10" transform="translate(0 48) rotate(45)"></rect>
+            <rect x="-5" y="-5" width="10" height="10" transform="translate(48 48) rotate(45)"></rect>
+          </g>
+          <path d="M5 0 H19 M29 0 H43 M5 48 H19 M29 48 H43 M0 5 V19 M0 29 V43 M48 5 V19 M48 29 V43" stroke="#E8B53C" stroke-width="1.4" opacity="0.6"></path>
+        </pattern>
+        <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0"><stop offset="0.35" stop-color="#0F3B2C"></stop><stop offset="0.85" stop-color="#0F3B2C" stop-opacity="0"></stop></linearGradient>
+      </defs>
+      <rect x="150" width="208" height="168" fill="url(#zellige)" opacity="0.5"></rect>
+      <rect width="358" height="168" fill="url(#fadeL)"></rect>
+    </svg>
+    <div style="position: relative; display: flex; flex-direction: column; justify-content: center; gap: 6px; height: 100%">
+      <span style="font-size: 11px; letter-spacing: 1.6px; font-weight: 600; color: #A9C4B5">LI B9A LIK</span>
+      <div style="display: flex; align-items: center; gap: 4px; margin-left: -11px">
+        <button type="button" onClick="{{toggle}}" aria-label="{{eyeLabel}}" aria-pressed="{{hidden}}" style="width: 44px; height: 44px; flex: none; padding: 0; border: 0; background: transparent; display: flex; align-items: center; justify-content: center; cursor: pointer">
+          <sc-if value="{{shown}}" hint-placeholder-val="{{ true }}">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#A9C4B5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+          </sc-if>
+          <sc-if value="{{hidden}}" hint-placeholder-val="{{ false }}">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#A9C4B5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.7 5.1A10 10 0 0 1 12 5c6.5 0 10 7 10 7a17 17 0 0 1-2.2 3.2M6.6 6.6A16.5 16.5 0 0 0 2 12s3.5 7 10 7a9.7 9.7 0 0 0 5.4-1.6M3 3l18 18M9.9 9.9a3 3 0 0 0 4.2 4.2"></path></svg>
+          </sc-if>
+        </button>
+        <sc-if value="{{shown}}" hint-placeholder-val="{{ true }}">
+          <span style="font-size: 38px; line-height: 44px; font-weight: 600; letter-spacing: -1.4px">2 339,50 <span style="font-size: 19px; font-weight: 500; color: #A9C4B5">DH</span></span>
+        </sc-if>
+        <sc-if value="{{hidden}}" hint-placeholder-val="{{ false }}">
+          <span style="font-size: 38px; line-height: 44px; font-weight: 600; letter-spacing: 4px">••••• <span style="font-size: 19px; font-weight: 500; letter-spacing: 0; color: #A9C4B5">DH</span></span>
+        </sc-if>
+      </div>
+    </div>
+  </section>
+
+  <nav aria-label="Actions sri3in" style="margin: 16px 16px 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px">
+    <a href="DarkV2Add.dc.html" style="display: flex; flex-direction: column; align-items: center; gap: 7px; text-decoration: none; color: #C2CCC5; font-size: 12px">
+      <span style="width: 100%; height: 58px; border-radius: 18px; background: #16211C; border: 1px solid #26332D; box-sizing: border-box; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7FD3A4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"></path></svg></span>Masrouf
+    </a>
+    <a href="DarkV2Add.dc.html" style="display: flex; flex-direction: column; align-items: center; gap: 7px; text-decoration: none; color: #C2CCC5; font-size: 12px">
+      <span style="width: 100%; height: 58px; border-radius: 18px; background: #16211C; border: 1px solid #26332D; box-sizing: border-box; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7FD3A4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 7 7 17M7 9v8h8"></path></svg></span>Dakhl
+    </a>
+    <a href="DarkV2Savings.dc.html" style="display: flex; flex-direction: column; align-items: center; gap: 7px; text-decoration: none; color: #EEF2EC; font-size: 12px; font-weight: 600">
+      <span style="width: 100%; height: 58px; border-radius: 18px; background: #E8B53C; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1B1A12" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3h8M9 3v2.5A6 6 0 0 0 5 11v7a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3v-7a6 6 0 0 0-4-5.5V3"></path><path d="M10 12h4"></path></svg></span>Dwayr zman
+    </a>
+    <a href="DarkV2Stats.dc.html" style="display: flex; flex-direction: column; align-items: center; gap: 7px; text-decoration: none; color: #C2CCC5; font-size: 12px">
+      <span style="width: 100%; height: 58px; border-radius: 18px; background: #16211C; border: 1px solid #26332D; box-sizing: border-box; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7FD3A4" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M5 20V11M12 20V4M19 20v-6"></path></svg></span>I7sa2iyat
+    </a>
+  </nav>
+
+  <section aria-label="Akhir mo3amalat" style="margin: 22px 16px 0">
+    <div style="display: flex; justify-content: space-between; align-items: center; padding: 0 4px; margin-bottom: 10px">
+      <h2 style="margin: 0; font-size: 17px; font-weight: 600">Akhir mo3amalat</h2>
+      <a href="DarkV2Transactions.dc.html" style="font-size: 13px; font-weight: 600; color: #5FC48E; text-decoration: none">Chouf kolchi ›</a>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 8px">
+      <div style="display: flex; align-items: center; gap: 12px; padding: 12px; border-radius: 18px; background: #16211C">
+        <span style="width: 46px; height: 46px; border-radius: 14px; background: #1C3A2E; display: flex; align-items: center; justify-content: center; flex: none"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" stroke="#7FD3A4"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"></path><circle cx="7" cy="17" r="2"></circle><path d="M9 17h6"></path><circle cx="17" cy="17" r="2"></circle></svg></span>
+        <span style="flex: 1; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">Taxi</span><span style="font-size: 12px; color: #98A59D">Na9l · Lyoum, 09:12</span></span>
+        <span style="font-size: 15px; font-weight: 600;">−50,00 DH</span>
+      </div>      <div style="display: flex; align-items: center; gap: 12px; padding: 12px; border-radius: 18px; background: #16211C">
+        <span style="width: 46px; height: 46px; border-radius: 14px; background: #33261B; display: flex; align-items: center; justify-content: center; flex: none"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" stroke="#D9A577"><path d="M10 2v2M14 2v2M6 2v2M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"></path></svg></span>
+        <span style="flex: 1; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">Café Ifrane</span><span style="font-size: 12px; color: #98A59D">9hwa · Lyoum, 08:30</span></span>
+        <span style="font-size: 15px; font-weight: 600;">−18,00 DH</span>
+      </div>      <div style="display: flex; align-items: center; gap: 12px; padding: 12px; border-radius: 18px; background: #16211C">
+        <span style="width: 46px; height: 46px; border-radius: 14px; background: #3A2518; display: flex; align-items: center; justify-content: center; flex: none"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" stroke="#F0A070"><circle cx="8" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M2 2h2l2.7 12.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L22 7H5.1"></path></svg></span>
+        <span style="flex: 1; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">Marjane</span><span style="font-size: 12px; color: #98A59D">Tqdya · Lbare7, 19:45</span></span>
+        <span style="font-size: 15px; font-weight: 600;">−412,50 DH</span>
+      </div>    </div>
+  </section>
+
+  <nav aria-label="Navigation" style="position: absolute; left: 0; right: 0; bottom: 0; height: 88px; padding-bottom: 18px; box-sizing: border-box; background: #16211C; border-top: 1px solid #22302A; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); align-items: center">
+    <a href="DarkV2Home.dc.html" aria-current="page" style="display: flex; flex-direction: column; align-items: center; gap: 4px; text-decoration: none; color: #7FD3A4; font-size: 10px; font-weight: 600"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7FD3A4" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"></path></svg>Ra2issya</a>
+    <a href="DarkV2Transactions.dc.html" style="display: flex; flex-direction: column; align-items: center; gap: 4px; text-decoration: none; color: #8A958E; font-size: 10px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A958E" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M9 6h12M9 12h12M9 18h12M4 6h.01M4 12h.01M4 18h.01"></path></svg>Lmo3amalat</a>
+    <a href="DarkV2Add.dc.html" aria-label="Zid mo3amala" style="justify-self: center; width: 56px; height: 56px; margin-top: -30px; border-radius: 50%; background: #E8B53C; box-shadow: 0 0 0 5px #16211C; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1B1A12" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></a>
+    <a href="DarkV2Stats.dc.html" style="display: flex; flex-direction: column; align-items: center; gap: 4px; text-decoration: none; color: #8A958E; font-size: 10px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A958E" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M5 20V11M12 20V4M19 20v-6"></path></svg>I7sa2iyat</a>
+    <a href="DarkV2Savings.dc.html" style="display: flex; flex-direction: column; align-items: center; gap: 4px; text-decoration: none; color: #8A958E; font-size: 10px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A958E" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"></path></svg>7sabi</a>
+  </nav>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  constructor(props) { super(props); this.state = { hidden: false }; }
+  renderVals() {
+    const hidden = this.state.hidden;
+    return {
+      hidden,
+      shown: !hidden,
+      eyeLabel: hidden ? 'Werri l mablagh' : 'Khbi l mablagh',
+      toggle: () => this.setState({ hidden: !hidden }),
+    };
+  }
+}
+</script>
+</body>
+</html>

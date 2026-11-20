@@ -1,0 +1,768 @@
+{
+    "v":  3,
+    "attachments":  {
+
+                    },
+    "boards":  {
+                   "AddTransaction.dc.html":  {
+                                                  "h":  844,
+                                                  "radius":  40,
+                                                  "title":  "P6 · Zid mo3amala",
+                                                  "w":  390,
+                                                  "x":  940,
+                                                  "y":  1190
+                                              },
+                   "BrandFonts.dc.html":  {
+                                              "h":  820,
+                                              "radius":  24,
+                                              "title":  "Font — 3 ikhtiyarat",
+                                              "w":  1240,
+                                              "x":  0,
+                                              "y":  4760
+                                          },
+                   "BrandLogos.dc.html":  {
+                                              "h":  820,
+                                              "radius":  24,
+                                              "title":  "Logo — 3 ikhtiyarat",
+                                              "w":  1240,
+                                              "x":  1320,
+                                              "y":  4760
+                                          },
+                   "BrandSplash.dc.html":  {
+                                               "h":  844,
+                                               "is_interactive":  true,
+                                               "radius":  40,
+                                               "title":  "Animation dyal dekhla",
+                                               "w":  390,
+                                               "x":  2640,
+                                               "y":  4760
+                                           },
+                   "Categories.dc.html":  {
+                                              "h":  844,
+                                              "radius":  40,
+                                              "title":  "P9 · Anwa3 (Categories)",
+                                              "w":  390,
+                                              "x":  940,
+                                              "y":  2380
+                                          },
+                   "CategoryEdit.dc.html":  {
+                                                "h":  844,
+                                                "radius":  40,
+                                                "title":  "P10 · Zid / 3dl naw3",
+                                                "w":  390,
+                                                "x":  1410,
+                                                "y":  2380
+                                            },
+                   "DarkAddTransaction.dc.html":  {
+                                                      "h":  844,
+                                                      "radius":  40,
+                                                      "title":  "P6 · Zid mo3amala (sombre)",
+                                                      "w":  390,
+                                                      "x":  3640,
+                                                      "y":  1190
+                                                  },
+                   "DarkCategories.dc.html":  {
+                                                  "h":  844,
+                                                  "radius":  40,
+                                                  "title":  "P9 · Categories (sombre)",
+                                                  "w":  390,
+                                                  "x":  3640,
+                                                  "y":  2380
+                                              },
+                   "DarkCategoryEdit.dc.html":  {
+                                                    "h":  844,
+                                                    "radius":  40,
+                                                    "title":  "P10 · Zid / 3dl naw3 (sombre)",
+                                                    "w":  390,
+                                                    "x":  4110,
+                                                    "y":  2380
+                                                },
+                   "DarkDwayrZman.dc.html":  {
+                                                 "h":  844,
+                                                 "radius":  40,
+                                                 "title":  "P12 · Dwayr zman (sombre)",
+                                                 "w":  390,
+                                                 "x":  2700,
+                                                 "y":  3570
+                                             },
+                   "DarkDwayrZmanMove.dc.html":  {
+                                                     "h":  844,
+                                                     "radius":  40,
+                                                     "title":  "P13 · Khbi / Jbed (sombre)",
+                                                     "w":  390,
+                                                     "x":  3170,
+                                                     "y":  3570
+                                                 },
+                   "DarkForgotPassword.dc.html":  {
+                                                      "h":  844,
+                                                      "radius":  40,
+                                                      "title":  "P3b · Nsit l mot de passe (sombre)",
+                                                      "w":  390,
+                                                      "x":  4110,
+                                                      "y":  0
+                                                  },
+                   "DarkHome.dc.html":  {
+                                            "h":  844,
+                                            "radius":  40,
+                                            "title":  "P4 · Ra2issya (sombre)",
+                                            "w":  390,
+                                            "x":  2700,
+                                            "y":  1190
+                                        },
+                   "DarkLogin.dc.html":  {
+                                             "h":  844,
+                                             "radius":  40,
+                                             "title":  "P2 · Dkhoul (sombre)",
+                                             "w":  390,
+                                             "x":  3170,
+                                             "y":  0
+                                         },
+                   "DarkMain.dc.html":  {
+                                            "h":  844,
+                                            "radius":  40,
+                                            "title":  "P1 · Splash (sombre)",
+                                            "w":  390,
+                                            "x":  2700,
+                                            "y":  0
+                                        },
+                   "DarkMonthDetail.dc.html":  {
+                                                   "h":  844,
+                                                   "radius":  40,
+                                                   "title":  "P8b · Tafasil chher (sombre)",
+                                                   "w":  390,
+                                                   "x":  3170,
+                                                   "y":  2380
+                                               },
+                   "DarkPopupShat.dc.html":  {
+                                                 "h":  844,
+                                                 "radius":  40,
+                                                 "title":  "M1 · Popup (sombre)",
+                                                 "w":  390,
+                                                 "x":  3640,
+                                                 "y":  3570
+                                             },
+                   "DarkProfile.dc.html":  {
+                                               "h":  844,
+                                               "radius":  40,
+                                               "title":  "P11 · Profil (sombre)",
+                                               "w":  390,
+                                               "x":  4580,
+                                               "y":  2380
+                                           },
+                   "DarkSignup.dc.html":  {
+                                              "h":  844,
+                                              "radius":  40,
+                                              "title":  "P3 · T9eyd db (sombre)",
+                                              "w":  390,
+                                              "x":  3640,
+                                              "y":  0
+                                          },
+                   "DarkStats.dc.html":  {
+                                             "h":  844,
+                                             "radius":  40,
+                                             "title":  "P8 · Ta7lil (sombre)",
+                                             "w":  390,
+                                             "x":  2700,
+                                             "y":  2380
+                                         },
+                   "DarkTransactionDetail.dc.html":  {
+                                                         "h":  844,
+                                                         "radius":  40,
+                                                         "title":  "P7 · Tafasil / 3dl (sombre)",
+                                                         "w":  390,
+                                                         "x":  4110,
+                                                         "y":  1190
+                                                     },
+                   "DarkTransactions.dc.html":  {
+                                                    "h":  844,
+                                                    "radius":  40,
+                                                    "title":  "P5 · Lmo3amalat (sombre)",
+                                                    "w":  390,
+                                                    "x":  3170,
+                                                    "y":  1190
+                                                },
+                   "DwayrZman.dc.html":  {
+                                             "h":  844,
+                                             "radius":  40,
+                                             "title":  "P12 · Dwayr zman",
+                                             "w":  390,
+                                             "x":  0,
+                                             "y":  3570
+                                         },
+                   "DwayrZmanMove.dc.html":  {
+                                                 "h":  844,
+                                                 "radius":  40,
+                                                 "title":  "P13 · Khbi / Jbed",
+                                                 "w":  390,
+                                                 "x":  470,
+                                                 "y":  3570
+                                             },
+                   "ForgotPassword.dc.html":  {
+                                                  "h":  844,
+                                                  "radius":  40,
+                                                  "title":  "P3b · Nsit l mot de passe",
+                                                  "w":  390,
+                                                  "x":  1410,
+                                                  "y":  0
+                                              },
+                   "Home.dc.html":  {
+                                        "h":  844,
+                                        "radius":  40,
+                                        "title":  "P4 · Ra2issya (Home)",
+                                        "w":  390,
+                                        "x":  0,
+                                        "y":  1190
+                                    },
+                   "Login.dc.html":  {
+                                         "h":  844,
+                                         "radius":  40,
+                                         "title":  "P2 · Dkhoul (Login)",
+                                         "w":  390,
+                                         "x":  470,
+                                         "y":  0
+                                     },
+                   "Main.dc.html":  {
+                                        "h":  844,
+                                        "radius":  40,
+                                        "title":  "P1 · Splash",
+                                        "w":  390,
+                                        "x":  0,
+                                        "y":  0
+                                    },
+                   "MonthDetail.dc.html":  {
+                                               "h":  844,
+                                               "radius":  40,
+                                               "title":  "P8b · Tafasil chher",
+                                               "w":  390,
+                                               "x":  470,
+                                               "y":  2380
+                                           },
+                   "PopupShat.dc.html":  {
+                                             "h":  844,
+                                             "radius":  40,
+                                             "title":  "M1 · Popup Shat lik",
+                                             "w":  390,
+                                             "x":  940,
+                                             "y":  3570
+                                         },
+                   "Profile.dc.html":  {
+                                           "h":  844,
+                                           "radius":  40,
+                                           "title":  "P11 · Profil o Paramètres",
+                                           "w":  390,
+                                           "x":  1880,
+                                           "y":  2380
+                                       },
+                   "Signup.dc.html":  {
+                                          "h":  844,
+                                          "radius":  40,
+                                          "title":  "P3 · T9eyd db",
+                                          "w":  390,
+                                          "x":  940,
+                                          "y":  0
+                                      },
+                   "Stats.dc.html":  {
+                                         "h":  844,
+                                         "radius":  40,
+                                         "title":  "P8 · Ta7lil",
+                                         "w":  390,
+                                         "x":  0,
+                                         "y":  2380
+                                     },
+                   "TransactionDetail.dc.html":  {
+                                                     "h":  844,
+                                                     "radius":  40,
+                                                     "title":  "P7 · Tafasil / 3dl",
+                                                     "w":  390,
+                                                     "x":  1410,
+                                                     "y":  1190
+                                                 },
+                   "Transactions.dc.html":  {
+                                                "h":  844,
+                                                "radius":  40,
+                                                "title":  "P5 · Lmo3amalat",
+                                                "w":  390,
+                                                "x":  470,
+                                                "y":  1190
+                                            },
+                   "V2Add.dc.html":  {
+                                         "h":  844,
+                                         "radius":  40,
+                                         "title":  "V2 · Zid mo3amala",
+                                         "w":  390,
+                                         "x":  940,
+                                         "y":  6000
+                                     },
+                   "V2CatEdit.dc.html":  {
+                                             "h":  844,
+                                             "radius":  40,
+                                             "title":  "V2 · Zid / 3dl categorie",
+                                             "w":  390,
+                                             "x":  2350,
+                                             "y":  7190
+                                         },
+                   "V2Categories.dc.html":  {
+                                                "h":  844,
+                                                "radius":  40,
+                                                "title":  "V2 · Categories",
+                                                "w":  390,
+                                                "x":  1880,
+                                                "y":  7190
+                                            },
+                   "V2Forgot.dc.html":  {
+                                            "h":  844,
+                                            "radius":  40,
+                                            "title":  "V2 · Nsit l mot de passe",
+                                            "w":  390,
+                                            "x":  470,
+                                            "y":  7190
+                                        },
+                   "V2Home.dc.html":  {
+                                          "h":  844,
+                                          "is_interactive":  true,
+                                          "radius":  40,
+                                          "title":  "V2 · Ra2issya",
+                                          "w":  390,
+                                          "x":  0,
+                                          "y":  6000
+                                      },
+                   "V2Login.dc.html":  {
+                                           "h":  844,
+                                           "radius":  40,
+                                           "title":  "V2 · Dkhol",
+                                           "w":  390,
+                                           "x":  3290,
+                                           "y":  6000
+                                       },
+                   "V2Month.dc.html":  {
+                                           "h":  844,
+                                           "radius":  40,
+                                           "title":  "V2 · Tafasil chher",
+                                           "w":  390,
+                                           "x":  1410,
+                                           "y":  7190
+                                       },
+                   "V2Move.dc.html":  {
+                                          "h":  844,
+                                          "radius":  40,
+                                          "title":  "V2 · Khbi / Jbed / Hadaf",
+                                          "w":  390,
+                                          "x":  2820,
+                                          "y":  7190
+                                      },
+                   "V2Notifs.dc.html":  {
+                                            "h":  844,
+                                            "radius":  40,
+                                            "title":  "V2 · Tanbihat",
+                                            "w":  390,
+                                            "x":  2820,
+                                            "y":  6000
+                                        },
+                   "V2Popup.dc.html":  {
+                                           "h":  844,
+                                           "radius":  40,
+                                           "title":  "V2 · Popup Shat lik",
+                                           "w":  390,
+                                           "x":  3290,
+                                           "y":  7190
+                                       },
+                   "V2Profile.dc.html":  {
+                                             "h":  844,
+                                             "radius":  40,
+                                             "title":  "V2 · 7sabi",
+                                             "w":  390,
+                                             "x":  2350,
+                                             "y":  6000
+                                         },
+                   "V2Savings.dc.html":  {
+                                             "h":  844,
+                                             "radius":  40,
+                                             "title":  "V2 · Dwayr zman",
+                                             "w":  390,
+                                             "x":  1880,
+                                             "y":  6000
+                                         },
+                   "V2Signup.dc.html":  {
+                                            "h":  844,
+                                            "radius":  40,
+                                            "title":  "V2 · T9eyd db",
+                                            "w":  390,
+                                            "x":  0,
+                                            "y":  7190
+                                        },
+                   "V2Splash.dc.html":  {
+                                            "h":  844,
+                                            "radius":  40,
+                                            "title":  "V2 · Splash",
+                                            "w":  390,
+                                            "x":  3760,
+                                            "y":  7190
+                                        },
+                   "V2Stats.dc.html":  {
+                                           "h":  844,
+                                           "radius":  40,
+                                           "title":  "V2 · I7sa2iyat",
+                                           "w":  390,
+                                           "x":  1410,
+                                           "y":  6000
+                                       },
+                   "V2Transactions.dc.html":  {
+                                                  "h":  844,
+                                                  "radius":  40,
+                                                  "title":  "V2 · Lmo3amalat",
+                                                  "w":  390,
+                                                  "x":  470,
+                                                  "y":  6000
+                                              },
+                   "V2TxDetail.dc.html":  {
+                                              "h":  844,
+                                              "radius":  40,
+                                              "title":  "V2 · Tafasil mo3amala",
+                                              "w":  390,
+                                              "x":  940,
+                                              "y":  7190
+                                          },
+                   "DarkV2Home.dc.html":  {
+                                              "h":  844,
+                                              "radius":  40,
+                                              "title":  "V2 · Ra2issya (sombre)",
+                                              "w":  390,
+                                              "x":  0,
+                                              "y":  8380
+                                          },
+                   "DarkV2Transactions.dc.html":  {
+                                                      "h":  844,
+                                                      "radius":  40,
+                                                      "title":  "V2 · Lmo3amalat (sombre)",
+                                                      "w":  390,
+                                                      "x":  470,
+                                                      "y":  8380
+                                                  },
+                   "DarkV2Add.dc.html":  {
+                                             "h":  844,
+                                             "radius":  40,
+                                             "title":  "V2 · Zid mo3amala (sombre)",
+                                             "w":  390,
+                                             "x":  940,
+                                             "y":  8380
+                                         },
+                   "DarkV2Stats.dc.html":  {
+                                               "h":  844,
+                                               "radius":  40,
+                                               "title":  "V2 · I7sa2iyat (sombre)",
+                                               "w":  390,
+                                               "x":  1410,
+                                               "y":  8380
+                                           },
+                   "DarkV2Savings.dc.html":  {
+                                                 "h":  844,
+                                                 "radius":  40,
+                                                 "title":  "V2 · Dwayr zman (sombre)",
+                                                 "w":  390,
+                                                 "x":  1880,
+                                                 "y":  8380
+                                             },
+                   "DarkV2Profile.dc.html":  {
+                                                 "h":  844,
+                                                 "radius":  40,
+                                                 "title":  "V2 · 7sabi (sombre)",
+                                                 "w":  390,
+                                                 "x":  2350,
+                                                 "y":  8380
+                                             },
+                   "DarkV2Notifs.dc.html":  {
+                                                "h":  844,
+                                                "radius":  40,
+                                                "title":  "V2 · Tanbihat (sombre)",
+                                                "w":  390,
+                                                "x":  2820,
+                                                "y":  8380
+                                            },
+                   "DarkV2Login.dc.html":  {
+                                               "h":  844,
+                                               "radius":  40,
+                                               "title":  "V2 · Dkhol (sombre)",
+                                               "w":  390,
+                                               "x":  3290,
+                                               "y":  8380
+                                           },
+                   "DarkV2Signup.dc.html":  {
+                                                "h":  844,
+                                                "radius":  40,
+                                                "title":  "V2 · T9eyd db (sombre)",
+                                                "w":  390,
+                                                "x":  0,
+                                                "y":  9570
+                                            },
+                   "DarkV2Forgot.dc.html":  {
+                                                "h":  844,
+                                                "radius":  40,
+                                                "title":  "V2 · Nsit l mot de passe (sombre)",
+                                                "w":  390,
+                                                "x":  470,
+                                                "y":  9570
+                                            },
+                   "DarkV2TxDetail.dc.html":  {
+                                                  "h":  844,
+                                                  "radius":  40,
+                                                  "title":  "V2 · Tafasil mo3amala (sombre)",
+                                                  "w":  390,
+                                                  "x":  940,
+                                                  "y":  9570
+                                              },
+                   "DarkV2Month.dc.html":  {
+                                               "h":  844,
+                                               "radius":  40,
+                                               "title":  "V2 · Tafasil chher (sombre)",
+                                               "w":  390,
+                                               "x":  1410,
+                                               "y":  9570
+                                           },
+                   "DarkV2Categories.dc.html":  {
+                                                    "h":  844,
+                                                    "radius":  40,
+                                                    "title":  "V2 · Categories (sombre)",
+                                                    "w":  390,
+                                                    "x":  1880,
+                                                    "y":  9570
+                                                },
+                   "DarkV2CatEdit.dc.html":  {
+                                                 "h":  844,
+                                                 "radius":  40,
+                                                 "title":  "V2 · Zid / 3dl categorie (sombre)",
+                                                 "w":  390,
+                                                 "x":  2350,
+                                                 "y":  9570
+                                             },
+                   "DarkV2Move.dc.html":  {
+                                              "h":  844,
+                                              "radius":  40,
+                                              "title":  "V2 · Khbi / Jbed / Hadaf (sombre)",
+                                              "w":  390,
+                                              "x":  2820,
+                                              "y":  9570
+                                          },
+                   "DarkV2Popup.dc.html":  {
+                                               "h":  844,
+                                               "radius":  40,
+                                               "title":  "V2 · Popup Shat lik (sombre)",
+                                               "w":  390,
+                                               "x":  3290,
+                                               "y":  9570
+                                           },
+                   "DarkV2Splash.dc.html":  {
+                                                "h":  844,
+                                                "radius":  40,
+                                                "title":  "V2 · Splash (sombre)",
+                                                "w":  390,
+                                                "x":  3760,
+                                                "y":  9570
+                                            }
+               },
+    "createdOnFiles":  {
+                           "at":  "2026-11-20T10:00:00Z",
+                           "v":  1
+                       },
+    "designSystems":  [
+
+                      ],
+    "launch":  {
+                   "view":  "canvas"
+               },
+    "noteOrder":  [
+                      "row-auth",
+                      "row-core",
+                      "row-more",
+                      "dark-auth",
+                      "dark-core",
+                      "dark-more",
+                      "row-epargne",
+                      "dark-epargne",
+                      "row-brand",
+                      "row-v2",
+                      "row-v2b",
+                      "dark-v2",
+                      "dark-v2b"
+                  ],
+    "notes":  {
+                  "dark-auth":  {
+                                    "kind":  "title1",
+                                    "maxW":  1800,
+                                    "text":  "Mode sombre · Auth — P1 → P3b",
+                                    "w":  240,
+                                    "x":  2700,
+                                    "y":  -300
+                                },
+                  "dark-core":  {
+                                    "kind":  "title1",
+                                    "maxW":  1800,
+                                    "text":  "Mode sombre · Mo3amalat — P4 → P7",
+                                    "w":  240,
+                                    "x":  2700,
+                                    "y":  890
+                                },
+                  "dark-epargne":  {
+                                       "kind":  "title1",
+                                       "maxW":  1800,
+                                       "text":  "Mode sombre · Dwayr zman — P12, P13, M1",
+                                       "w":  240,
+                                       "x":  2700,
+                                       "y":  3270
+                                   },
+                  "dark-more":  {
+                                    "kind":  "title1",
+                                    "maxW":  2270,
+                                    "text":  "Mode sombre · Ta7lil, categories o profil — P8 → P11",
+                                    "w":  240,
+                                    "x":  2700,
+                                    "y":  2080
+                                },
+                  "row-auth":  {
+                                   "kind":  "title1",
+                                   "maxW":  1800,
+                                   "text":  "Auth — P1 → P3b",
+                                   "w":  240,
+                                   "x":  0,
+                                   "y":  -300
+                               },
+                  "row-brand":  {
+                                    "kind":  "title1",
+                                    "maxW":  3030,
+                                    "text":  "Brand — font, logo o animation (bach tvalidi)",
+                                    "w":  240,
+                                    "x":  0,
+                                    "y":  4460
+                                },
+                  "row-core":  {
+                                   "kind":  "title1",
+                                   "maxW":  1800,
+                                   "text":  "Mo3amalat — P4 → P7",
+                                   "w":  240,
+                                   "x":  0,
+                                   "y":  890
+                               },
+                  "row-epargne":  {
+                                      "kind":  "title1",
+                                      "maxW":  1800,
+                                      "text":  "Dwayr zman (Epargne) — P12, P13, M1",
+                                      "w":  240,
+                                      "x":  0,
+                                      "y":  3270
+                                  },
+                  "row-more":  {
+                                   "kind":  "title1",
+                                   "maxW":  2270,
+                                   "text":  "Ta7lil, categories o profil — P8 → P11",
+                                   "w":  240,
+                                   "x":  0,
+                                   "y":  2080
+                               },
+                  "row-v2":  {
+                                 "kind":  "title1",
+                                 "maxW":  3680,
+                                 "text":  "V2 — design jdid (mstalhem mn les exemples)",
+                                 "w":  240,
+                                 "x":  0,
+                                 "y":  5700
+                             },
+                  "row-v2b":  {
+                                  "kind":  "title1",
+                                  "maxW":  4150,
+                                  "text":  "V2 — chaachat okhrin",
+                                  "w":  240,
+                                  "x":  0,
+                                  "y":  6890
+                              },
+                  "dark-v2":  {
+                                  "kind":  "title1",
+                                  "maxW":  3680,
+                                  "text":  "V2 · Mode sombre",
+                                  "w":  240,
+                                  "x":  0,
+                                  "y":  8080
+                              },
+                  "dark-v2b":  {
+                                   "kind":  "title1",
+                                   "maxW":  4150,
+                                   "text":  "V2 · Mode sombre — chaachat okhrin",
+                                   "w":  240,
+                                   "x":  0,
+                                   "y":  9270
+                               }
+              },
+    "order":  [
+                  "Main.dc.html",
+                  "Login.dc.html",
+                  "Signup.dc.html",
+                  "ForgotPassword.dc.html",
+                  "Home.dc.html",
+                  "Transactions.dc.html",
+                  "AddTransaction.dc.html",
+                  "TransactionDetail.dc.html",
+                  "Stats.dc.html",
+                  "MonthDetail.dc.html",
+                  "Categories.dc.html",
+                  "CategoryEdit.dc.html",
+                  "Profile.dc.html",
+                  "DarkMain.dc.html",
+                  "DarkLogin.dc.html",
+                  "DarkSignup.dc.html",
+                  "DarkForgotPassword.dc.html",
+                  "DarkHome.dc.html",
+                  "DarkTransactions.dc.html",
+                  "DarkAddTransaction.dc.html",
+                  "DarkTransactionDetail.dc.html",
+                  "DarkStats.dc.html",
+                  "DarkMonthDetail.dc.html",
+                  "DarkCategories.dc.html",
+                  "DarkCategoryEdit.dc.html",
+                  "DarkProfile.dc.html",
+                  "DwayrZman.dc.html",
+                  "DwayrZmanMove.dc.html",
+                  "PopupShat.dc.html",
+                  "DarkDwayrZman.dc.html",
+                  "DarkDwayrZmanMove.dc.html",
+                  "DarkPopupShat.dc.html",
+                  "BrandFonts.dc.html",
+                  "BrandLogos.dc.html",
+                  "BrandSplash.dc.html",
+                  "V2Home.dc.html",
+                  "V2Transactions.dc.html",
+                  "V2Add.dc.html",
+                  "V2Stats.dc.html",
+                  "V2Savings.dc.html",
+                  "V2Profile.dc.html",
+                  "V2Notifs.dc.html",
+                  "V2Login.dc.html",
+                  "V2Signup.dc.html",
+                  "V2Forgot.dc.html",
+                  "V2TxDetail.dc.html",
+                  "V2Month.dc.html",
+                  "V2Categories.dc.html",
+                  "V2CatEdit.dc.html",
+                  "V2Move.dc.html",
+                  "V2Popup.dc.html",
+                  "V2Splash.dc.html",
+                  "DarkV2Home.dc.html",
+                  "DarkV2Transactions.dc.html",
+                  "DarkV2Add.dc.html",
+                  "DarkV2Stats.dc.html",
+                  "DarkV2Savings.dc.html",
+                  "DarkV2Profile.dc.html",
+                  "DarkV2Notifs.dc.html",
+                  "DarkV2Login.dc.html",
+                  "DarkV2Signup.dc.html",
+                  "DarkV2Forgot.dc.html",
+                  "DarkV2TxDetail.dc.html",
+                  "DarkV2Month.dc.html",
+                  "DarkV2Categories.dc.html",
+                  "DarkV2CatEdit.dc.html",
+                  "DarkV2Move.dc.html",
+                  "DarkV2Popup.dc.html",
+                  "DarkV2Splash.dc.html"
+              ],
+    "pages":  [
+
+              ],
+    "title":  "Masarif App Mockups"
+}

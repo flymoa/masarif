@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "790595256589",
+    "project_id": "masarif-3120",
+    "storage_bucket": "masarif-3120.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790595256589:android:2d5d2b4730862344c7b044",
+        "android_client_info": {
+          "package_name": "ma.masarif.masarif"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL4R6F36YC-f7-paRQ7EXXpCNMatDabYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
